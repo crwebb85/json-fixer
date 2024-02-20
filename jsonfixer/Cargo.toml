@@ -10,3 +10,8 @@ anyhow = "1.0.79"
 clap = { version = "4.5.1", features = ["derive"] }
 clap-stdin = "0.4.0"
 json5format = "0.2.6"
+tree-sitter = "0.20.10"
+tree-sitter-json5 = { path = "../tree-sitter-json5/" }
+
+[build-dependencies]
+cc = "1.0.83"
